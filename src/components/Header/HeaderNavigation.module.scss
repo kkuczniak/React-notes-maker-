@@ -1,0 +1,16 @@
+
+.navItem {
+  display: inline-block;
+  margin-right: 50px;
+  list-style: none;
+
+    &Link{
+      text-decoration: none;
+      color: #818181;
+      font-size: .8em;
+
+      &Active{
+        font-weight: 700;
+      }
+    }
+}
